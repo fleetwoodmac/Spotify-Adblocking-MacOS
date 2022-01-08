@@ -27,9 +27,23 @@ There is no equivalent to BlocktheSpot or similar on MacOS currently. If you wan
 7. Pin the app to your dock for easy access if you wish. Below is an example with the created YouTube app.
 ![test3](https://user-images.githubusercontent.com/69140036/148522764-592f82bb-7099-4d82-8f01-2dca8f8376ed.png)
 
-### Notes
+### Annoyances with this method
 
 - Every time the Spotify app is started, Brave will also start, as the PWA depends on brave to be running. You can close any Brave windows that come up and just leave the Spotify window open while you play music.
 - To uninstall any PWA you create with Brave click the burger icon in the PWA and click uninstall. Below is an example with the YouTube app.
 ![test4](https://user-images.githubusercontent.com/69140036/148523348-c27aa824-9439-40e3-94b2-cd1c79393f2a.png)
+
+### Solutions to Annoyances
+
+1. You can use the provided [Alfred Workflow](spotify_workflow.alfredworkflow) if you have Alfred and a Powerpack license. Just download it and double click to import it into Alfred. The usage is described in the 'about' section of the workflow but essentially 
+   - the keyword **lspot** launches the Spotify PWA and closes the Brave window that opens up upon launch
+   - the keywork **kspot** kills the Spotify PWA by killing the Brave application
+
+2. If you don't have Alfred you can use Automator (default application that is included with every macOS install) to create an application that launches Spotify and closes the Brave window, and a hotkey combo/macro or second application that closes Spotify by killing Brave. Below is an example program that launches the Spotify PWA and gets rid of the Brave window.
+
+![test5](https://user-images.githubusercontent.com/69140036/148635333-7a939dc8-698a-4d85-a337-c11554aac7ec.png)
+
+Here is another example program to close Spotify by killing Brave
+
+
 
