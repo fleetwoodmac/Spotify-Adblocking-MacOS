@@ -21,10 +21,15 @@ There is no equivalent to BlocktheSpot or similar on MacOS currently. If you wan
 3. Log into to Spotify's webplayer (open.spotify.com)
 4. Click the burger icon (three horizontal lines) on the right side and click "Install Spotify" (above 'More Tools'). Click Install. _Below is an example shown for YouTube._
 ![test](https://user-images.githubusercontent.com/69140036/148520268-5513bfe5-1565-4359-aa5a-19680187e1b6.png)
+
 5. Note that Web Apps are stored at /Users/YOUR_USERNAME/Applications/Brave Browser Apps
+
 6. There should now be a window open with the Spotify webplayer and a Spotify icon in the Dock. Below is how the YouTube app would look like (with extensions installed shown).
+
 ![test2](https://user-images.githubusercontent.com/69140036/148522056-de505e5c-bee2-4a2e-bb9c-16697af205f6.png)
+
 7. Pin the app to your dock for easy access if you wish. Below is an example with the created YouTube app.
+
 ![test3](https://user-images.githubusercontent.com/69140036/148522764-592f82bb-7099-4d82-8f01-2dca8f8376ed.png)
 
 ### Annoyances with this method
