@@ -45,5 +45,6 @@ There is no equivalent to BlocktheSpot or similar on MacOS currently. If you wan
 
 Here is another example program to close Spotify by killing Brave
 
+![test6](https://user-images.githubusercontent.com/69140036/148635513-6c78ee01-16bb-4ba1-b02a-d2732aed53df.png)
 
 
